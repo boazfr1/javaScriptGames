@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#gameArea{
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    background-color: green;
+    border: 1px solid black;
+    margin-left: 425px;
+    margin-top: 150px;
+}
+.rock{
+    position: absolute;
+    width: 50px;
+    height: 600px;
+    background-color: black;
+}
+.hall{
+    position: absolute;
+    width: 50px;
+    height: 200px;
+    background-color: red;
+}
+#bird{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}

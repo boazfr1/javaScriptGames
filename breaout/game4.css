@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    background-color: #f4f0e6;
+} */
+.gameArea{
+    display: inline;
+    position: absolute;
+    border: 1px solid black;
+    width: 1000px;
+    height: 600px;
+    background-color: #9dd3a8;
+    margin-left: 420px;
+    margin-top: 100px;
+}
+.player{
+    position: absolute;
+    border: 1px solid black;
+    width: 180px;
+    height: 30px; 
+    background-color: #d9d9f3;
+}
+.block{
+    position: absolute;
+    background-color: black;
+    width: 130px;
+    height: 35px;
+}
+.ball{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+.gameOver{
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    width: 1000px;
+    height: 600px;
+    background-color: black;
+    color: white;
+    margin-left: 420px;
+    margin-top: 100px;
+}
+.winGame{
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    width: 1000px;
+    height: 600px;
+    background-color: black;
+    color: white;
+    margin-left: 420px;
+    margin-top: 100px;
+}

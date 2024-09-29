@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    object-fit: cover;
+    
+    background-image: url("images/alumaAndOrTzion.jpeg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body h1{
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+}
+body h3{
+    font-family: 'Secular One', sans-serif;
+    font-size: 40px;
+}
+
+main{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+#gameplace{
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#gameplace img{
+    width: 10vw;
+    height: 10vw;
+    margin: 5px;
+    border-radius: 35%;
+}
+
